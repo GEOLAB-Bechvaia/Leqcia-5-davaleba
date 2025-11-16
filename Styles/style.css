@@ -1,0 +1,49 @@
+header {
+	padding: 24px 52px;
+}
+
+nav {
+	display: inline;
+}
+
+a {
+	font-weight: 700;
+	font-size: 26px;
+	color: #8D81FF;
+	text-decoration: none;
+	margin: 0px 40px;
+}
+
+#active {
+	color: #4E6FAE;
+}
+
+.rectangle {
+  width: 30px;
+  height: 30px;
+  background: #5012D5;
+  color: #84FF81;
+  text-align: center;
+}
+
+.logos {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.LOGO1 {
+    width: 50px;   
+    height: 50px;
+}
+
+.LOGO2 {
+	width: 71px;
+	height: 49px;
+}
+
+.divider {
+    width: 2px;             
+    background-color: black; 
+    height: 50px; 
+}
