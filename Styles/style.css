@@ -1,9 +1,15 @@
-header {
-	padding: 24px 52px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 nav {
 	display: inline;
+	font-weight: 700;
+	font-size: 26px;
+	color: #8D81FF;
+	text-decoration: none;
+	margin-right: 10px;
 }
 
 a {
@@ -46,4 +52,35 @@ a {
     width: 2px;             
     background-color: black; 
     height: 50px; 
+}
+
+.date {
+	color: #8D81FF;
+	font-size: 32px;
+}
+
+.desc {
+	color: #4E6FAE;
+	font-size: 20px;
+}
+
+.txt {
+	color: #4E6FAE;
+	font-size: 16px;
+}
+
+.HTML {
+	color: #30CBC2;
+}
+
+.rectangle2 {
+	background: #E7E7E7;
+	width: 500px;
+	height: 192px;
+}
+
+.text {
+    position: absolute;
+    top: 800px;
+    left: 50px;
 }
